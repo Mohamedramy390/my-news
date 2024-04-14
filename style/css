@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Almarai", sans-serif !important;
+}
+
+img {
+  width: 100%;
+}
+
+.article-cat {
+  padding: 5px 10px;
+  background-color: #B80000;
+  color: #FFF;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.article-title {
+  font-size: 20px;
+  display: inline;
+  color: #000;
+  text-decoration: none;
+}
+.article-link {
+  text-decoration: none;
+  color: #000;
+}
+.article-link .row {
+  margin-top: 40px;
+  transition: all ease 0.5s;
+}
+.article-link .row:hover {
+  transform: translateY(-5px);
+}
+
+header .navbar {
+  padding-top: 10 !important;
+  padding-bottom: 10 !important;
+  border-bottom: 1px solid #B1AEAE;
+}
+header .navbar-brand {
+  color: #B80000;
+  font-size: 30px;
+}
+header .navbar .nav-item {
+  color: #000;
+  font-size: 18px;
+  margin-right: 20px;
+  transition: all 0.5s;
+}
+header .navbar .nav-item:hover {
+  color: #B80000;
+  text-shadow: 0.5px 0.5px #B80000;
+}
+header .navbar .form-control {
+  border: 2px solid #B1AEAE;
+  border-radius: 8px;
+}
+header .navbar .search-icon {
+  color: #B80000;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+header .login {
+  position: relative;
+}
+header .login .user {
+  color: #B1AEAE !important;
+  font-size: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+header .login .login-container {
+  visibility: hidden;
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  background-color: white;
+  border: 1px solid #B1AEAE;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  top: 50px;
+  right: -120px;
+  transition: all 0.5s;
+  opacity: 0;
+}
+header .login .login-container::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-top: 1px solid #B1AEAE;
+  border-left: 1px solid #B1AEAE;
+  top: -10px;
+  right: 50%;
+}
+header .login .login-container a {
+  opacity: 0;
+  visibility: hidden;
+  background-color: #B80000;
+  color: #FFF;
+  border: 1px solid #B80000;
+  padding: 5px 30px;
+  transition: all 0.5s;
+  text-decoration: none;
+  text-decoration: none;
+}
+header .login .login-container a:hover {
+  background-color: #FFF;
+  color: #B80000;
+}
+header .login:hover .login-container {
+  visibility: visible;
+  opacity: 100%;
+}
+header .login:hover .login-container a {
+  opacity: 100%;
+  visibility: visible;
+}
+header .header-news .carousel-news {
+  margin-top: 50px;
+  position: relative;
+}
+header .header-news .carousel-news::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 200px;
+  top: 150px;
+  left: -10px;
+  background-color: #B80000;
+}
+header .header-news .carousel-text {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px 70px;
+  bottom: 0;
+  right: 0;
+}
+header .header-news .carousel-text h3 {
+  position: relative;
+  font-size: 20px;
+  color: #FFF;
+}
+header .header-news .carousel-text h3::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 80px;
+  background-color: #B80000;
+  top: -10px;
+  left: 250px;
+}
+header .header-news .carousel-item img {
+  height: 490px;
+}
+header .header-news .carousel-indicators {
+  left: -550px;
+}
+header .header-news .carousel-indicators button {
+  width: 20px;
+  height: 20px;
+  text-indent: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #FFF;
+}
+header .header-articles {
+  margin-top: 50px;
+}
+header .header-articles .article-link .row {
+  margin-top: 40px;
+}
+
+main .section-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-right: 20px solid #B80000;
+  padding-right: 15px;
+  color: #000;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 50px;
+}
+main .news {
+  margin: 40px 0;
+}
+main .news img {
+  height: 170px;
+}
+main .news .c {
+  transition: all ease 0.5s;
+}
+main .news .c:hover {
+  transform: scale(103%);
+}
+main .news .button {
+  background-color: #B80000;
+  color: #FFF;
+  border: 1px solid #B80000;
+  padding: 5px 30px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+main .news .button:hover {
+  background-color: #FFF;
+  color: #B80000;
+}
+main .most-read {
+  background-color: #F0F0F0;
+  padding: 20px 0;
+}
+main .most-read .card-news {
+  background-color: #FFF;
+  padding: 30px 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+main .most-read .card-news .card-image {
+  position: relative;
+}
+main .most-read .card-news .card-image::after {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 270px;
+  background-color: #B80000;
+  bottom: -10px;
+  right: 30px;
+}
+main .most-read .card-news .card-image img {
+  height: 600px;
+}
+main .most-read .card-news img {
+  height: 280px;
+}
+main .most-read .card-news a {
+  text-decoration: none;
+}
+main .most-read .card-news .card-text {
+  color: #000;
+}
+main .most-read .card-news .card-text h3 {
+  padding: 30px 10px;
+  font-weight: bold;
+  font-size: 34px;
+}
+main .most-read .card-news .card-text p {
+  font-size: 24px;
+}
+main .opinions h4 {
+  color: #000;
+}
+main .opinions-card {
+  height: 180px;
+  padding: 30px 10px;
+  background-color: #B80000;
+}
+
+/*# sourceMappingURL=css.map */

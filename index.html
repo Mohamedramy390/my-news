@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اخباري</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#">اخباري</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">اخبار</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">تكنلوجيا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">اقتصاد</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">رياضه</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">حاسوب</a>
+                  </li>
+                </ul>
+                <div class = "login">
+                  <div><i class="user fa-solid fa-user"></i></div>
+                  <div class = "login-container">
+                    <a href="./login.html">تسجيل دخول</a>
+                  </div>
+                </div>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" aria-label="Search">
+                  <a href="./search.html"><i class="search-icon fa-solid fa-magnifying-glass"></i></a>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <div class="header-news">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="carousel-news">
+                  <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">2</button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">3</button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">4</button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="article.html">
+                          <img src="./images/picture-1.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-text">
+                            <h3>لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.</h3>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="article.html">
+                          <img src="./images/picture-11.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-text">
+                            <h3>لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.</h3>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="article.html">
+                          <img src="./images/picture-13.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-text">
+                            <h3>لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.</h3>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="article.html">
+                          <img src="./images/picture-14.jpg" class="d-block w-100" alt="...">
+                          <div class="carousel-text">
+                            <h3>لوريوم سبيوم: لوريم إيبسوم هو ببساطة نص شكلي.</h3>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="header-articles">
+                  <a href="article.html" class="article-link">
+                    <div class="row">
+                      <div class="col-sm-5">
+                        <img src="./images/picture-12.jpg" class="w-100" alt="">
+                      </div>
+                      <div class="col-sm-7">
+                        <div class="article-text">
+                          <span class="article-cat">اخبار</span>
+                          <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. </h5>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="article.html" class="article-link">
+                    <div class="row">
+                      <div class="col-sm-5">
+                        <img src="./images/picture-15.jpg" class="w-100" alt="">
+                      </div>
+                      <div class="col-sm-7">
+                        <div class="article-text">
+                          <span class="article-cat">اخبار</span>
+                          <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. </h5>
+                        </div>
+                      </div>
+                      </div>
+                    </a>
+                    <a href="article.html" class="article-link">
+                      <div class="row">
+                        <div class="col-sm-5">
+                          <img src="./images/picture-17.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                          <div class="article-text">
+                            <span class="article-cat">اخبار</span>
+                            <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. </h5>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <main>
+      <section class="news">
+        <div class="container">
+          <h2 class="section-title">اخبار</h2>
+          <div class="row">
+            <div class="c col-lg-3 col-md-4 col-sm-6 mt-4">
+              <a href="article.html" class="article-link">
+                <img src="./images/picture-5.jpg" alt="">
+                <div class="article-text mt-3">
+                  <span class="article-cat">اخبار</span>
+                  <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="c col-lg-3 col-md-4 col-sm-6 mt-4">
+              <a href="article.html" class="article-link">
+                <img src="./images/picture-11.jpg" alt="">
+                <div class="article-text mt-3">
+                  <span class="article-cat">اخبار</span>
+                  <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="c col-lg-3 col-md-4 col-sm-6 mt-4">
+              <a href="article.html" class="article-link">
+                <img src="./images/picture-3.jpg" alt="">
+                <div class="article-text mt-3">
+                  <span class="article-cat">اخبار</span>
+                  <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="c col-lg-3 col-md-4 col-sm-6 mt-4">
+              <a href="article.html" class="article-link">
+                <img src="./images/picture-2.jpg" alt="">
+                <div class="article-text mt-3">
+                  <span class="article-cat">اخبار</span>
+                  <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="c col-lg-3 col-md-4 col-sm-6 mt-4">
+              <a href="article.html" class="article-link">
+                <img src="./images/picture-10.jpg" alt="">
+                <div class="article-text mt-3">
+                  <span class="article-cat">اخبار</span>
+                  <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="c col-lg-3 col-md-4 col-sm-6 mt-4">
+              <a href="article.html" class="article-link">
+                <img src="./images/picture-9.jpg" alt="">
+                <div class="article-text mt-3">
+                  <span class="article-cat">اخبار</span>
+                  <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="c col-lg-3 col-md-4 col-sm-6 mt-4">
+              <a href="article.html" class="article-link">
+                <img src="./images/picture-17.jpg" alt="">
+                <div class="article-text mt-3">
+                  <span class="article-cat">اخبار</span>
+                  <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="c col-lg-3 col-md-4 col-sm-6 mt-4">
+              <a href="article.html" class="article-link">
+                <img src="./images/picture-16.jpg" alt="">
+                <div class="article-text mt-3">
+                  <span class="article-cat">اخبار</span>
+                  <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                  </h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="text-center mt-5">
+            <a href="" class="btn button">المزيد</a>
+          </div>
+        </div>
+      </section>
+      <section class="most-read">
+        <div class="container">
+          <h2 class="section-title">الاكثر قراءه</h2>
+          <div class="card-news">
+            <a href="article.html">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="./images/picture-7.jpg" alt="">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-text">
+                    <h3>لوريم إيبسوم هو ببساطة نص شكلي</h3>
+                    <p>لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card-news">
+            <a href="articles.html">
+              <div class="card-image">
+                <img src="./images/picture-9.jpg" alt="">
+              </div>
+              <div class="card-text">
+                <h3>لوريم إيبسوم هو ببساطة نص شكلي كان لوريم إيبسوم ولايزال المعيار للنص </h3>
+              </div>
+            </a>
+          </div>
+          <div class="card-news">
+            <a href="article.html">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="./images/picture-7.jpg" alt="">
+                </div>
+                <div class="col-md-7">
+                  <div class="card-text">
+                    <h3>لوريم إيبسوم هو ببساطة نص شكلي</h3>
+                    <p>لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="opinions">
+        <div class="container">
+          <h2 class="section-title">اراء</h2>
+          <div class="row mt-4">
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="opinions-card">
+                <h4>يُستخدم في صناعات المطابع</h4>
+                <div class="opinions-name">
+                  <img src="images/user_img/user_1.jpg" alt="">
+                  <h4>محمد الأحمد</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="opinions-card">
+                <h4>يُستخدم في صناعات المطابع</h4>
+                <div class="opinions-name">
+                  <img src="images/user_img/user_1.jpg" alt="">
+                  <h4>محمد الأحمد</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="opinions-card">
+                <h4>يُستخدم في صناعات المطابع</h4>
+                <div class="opinions-name">
+                  <img src="images/user_img/user_1.jpg" alt="">
+                  <h4>محمد الأحمد</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="opinions-card">
+                <h4>يُستخدم في صناعات المطابع</h4>
+                <div class="opinions-name">
+                  <img src="images/user_img/user_1.jpg" alt="">
+                  <h4>محمد الأحمد</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="opinions-card">
+                <h4>يُستخدم في صناعات المطابع</h4>
+                <div class="opinions-name">
+                  <img src="images/user_img/user_1.jpg" alt="">
+                  <h4>محمد الأحمد</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="opinions-card">
+                <h4>يُستخدم في صناعات المطابع</h4>
+                <div class="opinions-name">
+                  <img src="images/user_img/user_1.jpg" alt="">
+                  <h4>محمد الأحمد</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="opinions-card">
+                <h4>يُستخدم في صناعات المطابع</h4>
+                <div class="opinions-name">
+                  <img src="images/user_img/user_1.jpg" alt="">
+                  <h4>محمد الأحمد</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="opinions-card">
+                <h4>يُستخدم في صناعات المطابع</h4>
+                <div class="opinions-name">
+                  <img src="images/user_img/user_1.jpg" alt="">
+                  <h4>محمد الأحمد</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="video">
+        <div class="container">
+          <h2 class="section-title">فيديو</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="article.html" class="article-link">
+                  <div class="slide-img">
+                    <img src="./images/picture-1.jpg" alt="">
+                  </div>
+                  <div class="slide-text">
+                    <h5>لوريوم سبيوم هو ببساطة نص </h5>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="article.html" class="article-link">
+                  <div class="slide-img">
+                    <img src="./images/picture-1.jpg" alt="">
+                  </div>
+                  <div class="slide-text">
+                    <h5>لوريوم سبيوم هو ببساطة نص </h5>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="article.html" class="article-link">
+                  <div class="slide-img">
+                    <img src="./images/picture-1.jpg" alt="">
+                  </div>
+                  <div class="slide-text">
+                    <h5>لوريوم سبيوم هو ببساطة نص </h5>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="article.html" class="article-link">
+                  <div class="slide-img">
+                    <img src="./images/picture-1.jpg" alt="">
+                  </div>
+                  <div class="slide-text">
+                    <h5>لوريوم سبيوم هو ببساطة نص </h5>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="article.html" class="article-link">
+                  <div class="slide-img">
+                    <img src="./images/picture-1.jpg" alt="">
+                  </div>
+                  <div class="slide-text">
+                    <h5>لوريوم سبيوم هو ببساطة نص </h5>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="article.html" class="article-link">
+                  <div class="slide-img">
+                    <img src="./images/picture-1.jpg" alt="">
+                  </div>
+                  <div class="slide-text">
+                    <h5>لوريوم سبيوم هو ببساطة نص </h5>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="article.html" class="article-link">
+                  <div class="slide-img">
+                    <img src="./images/picture-1.jpg" alt="">
+                  </div>
+                  <div class="slide-text">
+                    <h5>لوريوم سبيوم هو ببساطة نص </h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </section>
+
+      <section class="newest-news">
+        <div class="container">
+          <h2 class="section-title">احدث الاخبار</h2>
+          <div class="row">
+            <div class="c col-lg-6">
+              <a href="article.html" class="article-link">
+                <div class="article-img">
+                  <img src="./images/picture-5.jpg" alt="">                
+                </div>
+                <div class="article-text mt-3">
+                  <span class="article-cat">اخبار</span>
+                  <h3>لوريم إيبسوم هو ببساطة</h3>
+                  <h5 class="article-title d-block mt-4">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                  </h5>
+                </div>
+              </a>
+            <div class="col-lg-6"></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <a href="article.html" class="article-link">
+                  <div class="row mt-0">
+                    <div class="col-sm-5">
+                      <img src="./images/picture-12.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="article-text article-text-r">
+                        <span class="article-cat">اخبار</span>
+                        <h3 id="article-title-s">لوريم إيبسوم هو ببساطة</h3>
+                        <h5 class="article-title d-block mt-4">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. </h5>
+                      </div>
+                    </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="c col-6">
+                  <a href="article.html" class="article-link">
+                    <div class="article-img">
+                      <img src="./images/picture-5.jpg" alt="">                
+                    </div>
+                    <div class="article-text mt-3 article-text-r">
+                      <span class="article-cat">اخبار</span>
+                      <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="c col-6">
+                  <a href="article.html" class="article-link">
+                    <div class="article-img">
+                      <img src="./images/picture-5.jpg" alt="">                
+                    </div>
+                    <div class="article-text mt-3 article-text-r">
+                      <span class="article-cat">اخبار</span>
+                      <h5 class="article-title">لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)
+                      </h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="info">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="info-col">
+                <ul>
+                  <li><h4>من نحن</h4></li>
+                  <li><a href=""> من نحن </a></li>
+                  <li><a href=""> الأحكام والشروط </a></li>
+                  <li><a href=""> سياسة الخصوصية </a></li>
+                  <li><a href="">سياسة ملفات تعريف الارتباط </a></li>
+                  <li><a href=""> تفضيلات ملفات تعريف الارتباط </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="info-col">
+                <ul>
+                  <li><h4>تواصل معنا</h4></li>
+                  <li><a href="">  تواصل معنا</a></li>
+                  <li><a href=""> أعلن معنا</a></li>
+                  <li><a href="">  وظائف شاغرة</a></li>
+                  <li><a href="">  بيانات صحفية </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="info-col">
+                <ul>
+                  <li><h4> وسائل التواصل</h4></li>
+                  <li><a href="">  مكة المكرمة </a></li>
+                  <li><a href="">  0 00 000000 </a></li>
+                  <li><a href="">  info@mynews.com </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="info-col">
+                <ul>
+                  <li><h4>تابعنا على </h4></li>
+                  <ul class="social-media">
+                    <li><a href=""> <img src="./images/social_media/Facebook.png" alt=""></a></li>
+                    <li><a href=""> <img src="./images/social_media/Twitter.png" alt="">  </a></li>
+                    <li><a href=""> <img src="./images/social_media/Instagram.png" alt="">  </a></li>
+                    <li><a href=""> <img src="./images/social_media/YouTube.png" alt="">  </a></li>
+                  </ul>
+                  <div class="rights">
+                    <h3 class="rights-title">اخباري</h3>
+                    <p>جميع الحقوق محفوظة © 2022 </p>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="./js/indexPage/config.js"></script>
+    <script src="./js/indexPage/sliderComponent.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
